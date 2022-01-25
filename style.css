@@ -1,0 +1,75 @@
+* { 
+    box-sizing: border-box;
+     margin:  0; 
+     padding: 0;
+} 
+
+.nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin: 25px;
+} 
+
+.nav ul { 
+    display: flex;  
+    list-style: none;
+}
+
+.nav ul li a { 
+    display: flex;  
+    flex-direction: row;
+    text-decoration: none;
+    margin: 30px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+ button {
+    padding: 20px;
+    color:  #fffcff;; 
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #9c27b0;
+    border: none;
+    box-shadow: 3px 3px 5px 0 #1f0823;
+
+} 
+
+.left {
+    
+}
+
+#image {
+    width:  800px;
+    clip-path: circle();
+    margin: 150px 50px 50px 300px;
+    align-items: right;
+} 
+
+
+.content { 
+   margin: 100px; 
+   display: flex;
+   align-items: center; 
+ }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 10px 35px;   
+  }
+
+#insta {
+    margin: 0px 20px 100px 35px;
+    position: relative: left;
+}
+
+#linkedin {
+    margin: 0px 100px 150px 100px;
+
+}
+
+
